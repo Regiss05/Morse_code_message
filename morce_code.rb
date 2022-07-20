@@ -37,7 +37,7 @@ MORSE_DICTIONARY = {
     '----.' => '9',
     '-----' => '0'
   }.freeze
-  
+
   def convert_char(char)
     return  MORSE_DICTIONARY[char].capitalize
     
@@ -63,3 +63,4 @@ MORSE_DICTIONARY = {
       sentence_converted.strip
   end
     p convert_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+    
